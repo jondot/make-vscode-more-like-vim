@@ -1,0 +1,207 @@
+{
+  "vim.hlsearch": true,
+  "vim.leader": "<space>",
+  "vim.handleKeys": {
+    "<C-n>": true
+  },
+  "vim.insertModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "<C-i>"
+      ],
+      "after": [
+        "=",
+        ">",
+        " "
+      ]
+    },
+    {
+      "before": [
+        "j",
+        "j"
+      ],
+      "after": [
+        "<escape>"
+      ]
+    }
+  ],
+  "vim.normalModeKeyBindings": [
+    {
+      "before": [
+        ";"
+      ],
+      "after": [
+        ":"
+      ]
+    },
+    {
+      "before": [
+        "<C-n>"
+      ],
+      "commands": [
+        ":nohl"
+      ]
+    },
+    {
+      "before": [
+        "leader",
+        "w"
+      ],
+      "commands": [
+        "workbench.action.files.save",
+      ]
+    },
+    {
+      "before": [
+        "leader",
+        "c"
+      ],
+      "commands": [
+        "workbench.action.closeActiveEditor",
+      ]
+    }
+  ],
+  "workbench.activityBar.visible": false,
+  "workbench.sideBar.location": "right",
+  "editor.roundedSelection": false,
+  "editor.minimap.enabled": false,
+  "editor.fontLigatures": true,
+  "editor.folding": false,
+  "workbench.editor.showTabs": false,
+  "workbench.startupEditor": "newUntitledFile",
+  "explorer.openEditors.visible": 0,
+  "vim.statusBarColors.insert": "#333",
+  "vim.statusBarColors.normal": "#282922",
+  //"editor.fontFamily": "OperatorMono Nerd Font",
+  "editor.fontFamily": "iA Writer Duospace",
+  "editor.fontSize": 21,
+  "editor.fontWeight": "300",
+  "editor.formatOnSave": true,
+  "workbench.statusBar.visible": true,
+  "editor.scrollBeyondLastLine": false,
+  "workbench.editor.enablePreview": false,
+  "window.title": "${folderName}/${activeEditorShort}",
+  "workbench.colorTheme": "SynthWave '84",
+  "window.zoomLevel": 1,
+  "editor.cursorBlinking": "solid",
+  "python.formatting.provider": "black",
+  "C_Cpp.intelliSenseEngine": "Default",
+  "python.linting.prospectorEnabled": false,
+  "python.linting.pylintEnabled": true,
+  "eslint.alwaysShowStatus": true,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/tmp": true,
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/dist": true
+  },
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/**": true,
+    "**/tmp/**": true,
+    "**/bower_components/**": true,
+    "**/dist/**": true
+  },
+  "ruby.lint": {
+    "rubocop": true,
+    "ruby": true
+  },
+  "rufo.formatOnSave": false,
+  "eslint.packageManager": "yarn",
+  "vim.easymotion": true,
+  "explorer.confirmDragAndDrop": false,
+  "git.ignoreMissingGitWarning": true,
+  "diffEditor.ignoreTrimWhitespace": true,
+  "gitlens.keymap": "none",
+  "gitlens.advanced.messages": {
+    "suppressCommitHasNoPreviousCommitWarning": false,
+    "suppressCommitNotFoundWarning": false,
+    "suppressFileNotUnderSourceControlWarning": false,
+    "suppressGitVersionWarning": false,
+    "suppressLineUncommittedWarning": false,
+    "suppressNoRepositoryWarning": false,
+    "suppressResultsExplorerNotice": false,
+    "suppressShowKeyBindingsNotice": true
+  },
+  "python.linting.flake8Enabled": true,
+  "tslint.autoFixOnSave": true,
+  "sync.removeExtensions": true,
+  "sync.syncExtensions": true,
+  "eslint.autoFixOnSave": true,
+  "eslint.run": "onType",
+  "rust.all_features": true,
+  "rust-client.channel": "nightly",
+  "workbench.colorCustomizations": {
+    "[Monokai]": {
+      "editor.background": "#212121",
+      "sideBar.background": "#212121",
+      "titleBar.activeBackground": "#212121",
+      "panel.background": "#212121",
+      "statusBar.background": "#212121",
+      "statusBar.noFolderBackground": "#212121",
+      "statusBar.debuggingBackground": "#212121"
+    },
+  },
+  "breadcrumbs.enabled": true,
+  "extensions.autoUpdate": true,
+  "go.lintTool": "golint",
+  "go.formatTool": "goimports",
+  "go.lintFlags": [
+    "--fast"
+  ],
+  "go.toolsEnvVars": {
+    "GO111MODULE": "on",
+  },
+  "go.inferGopath": true,
+  "go.gocodeAutoBuild": true,
+  "rust.unstable_features": true,
+  "python.venvPath": "~/.virtualenvs",
+  "tslint.alwaysShowStatus": true,
+  "editor.suggest.localityBonus": true,
+  "rust-client.updateOnStartup": true,
+  "flow.pathToFlow": "",
+  "flow.useNPMPackagedFlow": true,
+  "rust.clippy_preference": "on",
+  "javascript.format.enable": false,
+  "typescript.format.enable": false,
+  "tslint.enable": false,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    {
+      "language": "typescript",
+      "autoFix": true
+    },
+    {
+      "language": "typescriptreact",
+      "autoFix": true,
+    }
+  ],
+  "workbench.list.keyboardNavigation": "simple",
+  "rust.all_targets": false,
+  "rust.wait_to_build": 300,
+  "typescript.format.insertSpaceAfterCommaDelimiter": false,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "javascript.implicitProjectConfig.experimentalDecorators": true,
+  "python.jediEnabled": false,
+  "stylelint.enable": true,
+  "stylelint.additionalDocumentSelectors": [
+    "js"
+  ],
+  "css.validate": false,
+  "scss.validate": false,
+  "rust-analyzer.enableEnhancedTyping": false,
+  "[rust]": {
+    "editor.defaultFormatter": "matklad.ra-lsp"
+  },
+  "workbench.tree.renderIndentGuides": "always",
+  "workbench.tree.indent": 16,
+  "go.useLanguageServer": true
+}
